@@ -1,4 +1,4 @@
-# Documentação do Agente
+# Documentação do Dante
 
 ## Caso de Uso
 
