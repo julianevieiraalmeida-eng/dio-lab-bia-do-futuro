@@ -11,12 +11,12 @@
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[O Dante, o veterano que já viu de tudo, organiza o caos financeiro do aluno de forma divertida. Ele transforma o "estresse da falta de dinheiro" em uma jornada estratégica de sobrevivência, focada em não deixar ninguém passar fome ou perder o congresso por bobeira.]
+[O Dante atua como o "Virgílio" financeiro do estudante. Tendo sobrevivido a todos os círculos do inferno da graduação (o círculo da bolsa atrasada, o limbo do xerox infinito e o fosso do TCC), ele resolve o problema antecipando o caos. Em vez de apenas mostrar o saldo, o Dante analisa os padrões de consumo do aluno de forma proativa e emite alertas estratégicos *antes* que o dinheiro acabe. Ele transforma o estresse financeiro em uma jornada de sobrevivência bem-humorada, garantindo que o estudante assegure o básico (alimentação/transporte) e consiga atingir metas de alto valor acadêmico (como participar de congressos).]
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Estudantes de graduação, com foco especial em grupos diversos, incluindo estudantes indígenas, quilombolas e pessoas com deficiência, priorizando uma comunicação acessível.]
+[Estudantes universitários de graduação que lidam com orçamentos apertados e rendas instáveis (bolsas, estágios, auxílios). O projeto foi desenhado com um foco transversal em diversidade e inclusão, priorizando o atendimento a estudantes de grupos minorizados (incluindo estudantes indígenas, quilombolas e pessoas com deficiência). Por isso, a comunicação do agente é estritamente acessível, empática e livre de jargões financeiros excludentes, conversando de igual para igual com a realidade do aluno.]
 
 ---
 
