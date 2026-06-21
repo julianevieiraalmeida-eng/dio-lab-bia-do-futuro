@@ -38,17 +38,36 @@ Programou-se o sistema para que os dados sejam **consultados dinamicamente e inj
 ## Exemplo de Contexto Montado
 
 ```text
-[Contexto Injetado pelo Sistema Oculto]
-Dados do Estudante:
-- Nome: Ana Costa
-- Perfil Acadêmico: Conservador (Bolsista integral)
-- Saldo disponível atual: R$ 180,00
-- Meta prioritária identificada: Inscrição no Congresso (R$ 80,00)
+<SYSTEM_CONTEXT>
+[METADADOS_SESSAO]
+- Data da Análise: 2026-06-21
+- Perfil de Risco: Conservador (Bolsista Integral)
+- Flag de Atenção: Risco de Liquidez Imediata Detectado
 
-Últimas transações mapeadas:
-- 15/06: Restaurante Universitário (RU) - R$ 2,50
-- 16/06: Lanchonete (Café e Salgado) - R$ 18,00
-- 18/06: Papelaria (Xerox e Apostilas) - R$ 12,00
-- 20/06: Assinatura Streaming - R$ 29,90
+[DADOS_DO_CLIENTE_JSON]
+{
+  "nome": "Ana Costa",
+  "objetivo_critico": "Inscrição Congresso (Meta: R$ 80,00)",
+  "reserva_disponivel": 180.00
+}
 
-Mensagem do usuário: "Dante, acha que eu consigo pagar o congresso semana que vem se eu continuar gastando assim?"
+[AGREGAÇÃO_DE_GASTOS_MES_ATUAL]
+- Moradia/República: R$ 450,00 (62% da renda)
+- Alimentação (RU/Cantina): R$ 120,00 (16% da renda)
+- Transporte: R$ 60,00 (8% da renda)
+- Educação/Materiais: R$ 45,00 (6% da renda)
+- Lazer/Supérfluos: R$ 50,00 (8% da renda)
+
+[ANALISE_COMPORTAMENTAL_PREVIA]
+- Tendência: Aumento de 15% em "Alimentação" nos últimos 7 dias.
+- Alerta: Se o padrão de Lazer e Alimentação se mantiver, o capital para o "Objetivo Crítico" será consumido em 9 dias.
+
+[CATALOGO_PRODUTOS_FILTRADO]
+- "Caixinha Reserva Acadêmica": Risco zero, liquidez imediata. (Recomendação Principal).
+</SYSTEM_CONTEXT>
+
+<INTERACAO_USUARIO_AGENTE>
+Usuário: "Dante, acha que eu consigo pagar o congresso semana que vem se eu continuar gastando assim na lanchonete do CA?"
+
+Dante: "Salve, Ana! Analisando seu Mapa do Inferno aqui... a matemática é cruel: você tem R$ 180 e a inscrição é R$ 80. Sobram só R$ 100 pra sobreviver ao mês. Só que o sistema apitou que, nesse seu ritmo de salgado no CA e streaming, seu caixa zera em exatos 9 dias! Se você não focar no bandejão essa semana, o congresso vai virar lenda. Minha recomendação técnica? Pega esses R$ 80 hoje e joga na 'Caixinha Reserva Acadêmica' pra travar esse dinheiro com risco zero. Bora garantir essa meta!"
+
